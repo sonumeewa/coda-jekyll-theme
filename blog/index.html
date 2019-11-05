@@ -51,6 +51,7 @@ title: Blog
                             & tutorials.</p>
                         </div>
                         <!-- Heading & Description -->
+                        {{ site.tags }}
                         {% for post in paginator.posts %}
                         
                         <hr class="mb-5">
@@ -78,8 +79,8 @@ title: Blog
                                 </h3>
                                 <p class="grey-text">Learn how to create a smart website which learns your user and reacts properly to his
                                     behavior.</p>
-                                    <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
-                                    class="btn btn-primary btn-md">Start tutorial
+                                    <a href="{{ post.url}}" target="_blank"
+                                    class="btn btn-primary btn-md">Read more
                                     <i class="fas fa-play ml-2"></i>
                                 </a>
                             </div>
@@ -88,10 +89,10 @@ title: Blog
                         </div>
                         <!--Grid row-->
                         
-                        <hr class="mb-5">
                         
                         {% endfor%}
-                       
+                        <hr class="mb-5">
+                        
                         
                         <!--Pagination-->
                         {% if paginator.total_pages > 1 %}
@@ -119,14 +120,14 @@ title: Blog
                                 </li>
                                 {% elsif page == 1 %}
                                 <li class="page-item">
-                                        <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: '/page:num', '' }}">{{page}}</a>
-                                    </li>                             
+                                    <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: '/page:num', '' }}">{{page}}</a>
+                                </li>                             
                                 {% else %}
                                 <li class="page-item">
                                     <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{page}}</a>
                                 </li>
                                 {% endif %}
-
+                                
                                 {% endfor %}
                                 
                                 {% if paginator.next_page %}
@@ -137,7 +138,7 @@ title: Blog
                                     </a>
                                 </li>
                                 {% endif %} 
-                        
+                                
                                 
                             </ul>
                         </nav>

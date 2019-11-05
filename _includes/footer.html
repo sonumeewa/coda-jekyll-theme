@@ -1,0 +1,22 @@
+<!--Footer-->
+
+
+    <!-- Social icons -->
+    <div class="pb-4">
+            {% for item in site.data.footer %}
+        <a href="{{ item.link }}" target="_blank">
+            <i class="fab fa-{{ item.name }} mr-3"></i>
+        </a>
+        
+    {% endfor %}
+      
+    </div>
+    <!-- Social icons -->
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+        © 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+    </div>
+    <!--/.Copyright-->
+    
+</footer>
