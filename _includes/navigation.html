@@ -1,8 +1,9 @@
+{% assign navbrand ={{site.data.navigation[0]}} %}
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
-        <a class="navbar-brand" href="/">
-            <img class="avatar" src="/assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
-            <strong> Vipul Barodiya</strong>
+        <a class="navbar-brand" href="{{site.base_url }}">
+            <img class="avatar" src="{{navbrand.navbrand.avatar}}" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+            <strong>{{navbrand.navbrand.name}}</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +11,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
-        {% for item in site.data.navigation %}
+{% assign navbar ={{site.data.navigation[1]}} %}
+
+        {% for item in navbar.navitems %}
         {% if item.subnav %}
             <li class="nav-item dropdown">
                 <a href="{{ item.link }}" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"

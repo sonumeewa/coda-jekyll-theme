@@ -1,18 +1,37 @@
-- link: /
-  name: Home
-- link: /#about
-  name: About
-- link: /#projects
-  name: Projects
-- link: /#contact
-  name: Contact
-- link: /blog/
-  name: Blog
-  subnav:
-    - link: /blog/index.html
-      name: All
-    - link: /blog/categories/personal
-      name: Personal
-    - link: /blog/categories/home
+-  navbrand:
+    name: Vipul Barodiya
+    avatar: /assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png
+-  navitems:
+    - link: /
+      img: /assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png
+      type: avatar
+    - link: /
+      brand: Vipul Barodiya
+      type: navbrand
+    - link: /
       name: Home
+      type: item
+    - link: /#about
+      name: About
+      type: item
+    - link: /#projects
+      name: Projects
+      type: item
+    - link: /#contact
+      name: Contact
+      type: item
+    - link: /blog/
+      name: Blog
+      type: dropdown
+      subnav:
+        - link: /blog/index.html
+          name: All
+        - link: /blog/categories/personal
+          name: Personal
+        - link: /blog/categories/home
+          name: Home
+
+
+
+
 
