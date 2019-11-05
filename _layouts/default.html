@@ -14,6 +14,11 @@
 {% if site.tags != "" %}
   {% include collecttags.html %}
 {% endif %}
+{% if site.categories != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
+
   <!-- Bootstrap core CSS -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->

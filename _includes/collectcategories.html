@@ -1,0 +1,19 @@
+
+
+
+{% assign tcats = "" %}
+{% for post in site.posts %}
+  {% assign tcats = post.categories | join:'|' | append:'|' %}
+{% endfor %}
+
+{% assign site.categories = "" %}
+{% for cat in tcats %}
+  {% if cat != "" %}
+    {% if categories == "" %}
+      {% assign categories = cat | split:'|' %}
+    {% endif %}
+    {% unless categories contains cat %}
+      {% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}

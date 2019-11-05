@@ -1,10 +1,18 @@
 - link: /
   name: Home
-- link: /about
+- link: /#about
   name: About
-- link: /projects
+- link: /#projects
   name: Projects
+- link: /#contact
+  name: Contact
 - link: /blog/
   name: Blog
-- link: /contact
-  name: Contact
+  subnav:
+    - link: /blog/index.html
+      name: All
+    - link: /blog/categories/personal
+      name: Personal
+    - link: /blog/categories/home
+      name: Home
+

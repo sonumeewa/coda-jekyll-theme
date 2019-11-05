@@ -1,0 +1,20 @@
+<div class="row my-3 card  grey lighten-4 m-3">
+    <!-- Heading & Description -->
+    <h4 class="dark-gray-text text-center display-6 p-2 m-1"> Categories</h4>
+    <ul class="list-group gray">
+        {% if site.categories.size!=0 %}
+        {% for category in site. categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <li class="list-group-item d-flex justify-content-between align-items-center {% if page.category == category_name  %} active white {% endif %}">
+            <a href="/blog/categories/{{ category_name }}"> {{ category_name }}</a>
+            <span class="badge badge-primary badge-pill">{{ site.categories[category_name].size }}</span>
+        </li>
+        {% endfor %}
+        {% else %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            No categories specified.
+            <span class="badge badge-primary badge-pill">0</span>
+        </li>
+        {% endif %}
+    </ul>
+</div>
