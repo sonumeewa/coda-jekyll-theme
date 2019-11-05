@@ -163,8 +163,12 @@ layout: default
                                 <div class="card-body">
                                     
                                     <p class="h5 my-4">That's a very long heading </p>
-
-                                    
+                                    <span>[
+                                        {% for tag in page.tags %}
+                                          {% capture tag_name %}{{ tag }}{% endcapture %}
+                                          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                                        {% endfor %}
+                                      ]</span>
                                     <blockquote class="blockquote">
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                         <footer class="blockquote-footer">Someone famous in
