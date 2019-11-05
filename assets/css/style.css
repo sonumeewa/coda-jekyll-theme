@@ -41,6 +41,7 @@ body{
   /* color: #333; */
   color: var(--text-dark);
   line-height: 1.6;
+  background-color: #f5f5f5;
 }
 
 /* Carousel*/
@@ -174,3 +175,15 @@ carousel
 .carousel-indicators, .carousel-control-prev, .carousel-control-next {
   z-index: 30;
 }
+
+/* About me Cards */
+
+    .extra-margins {
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .jumbotron {
+        text-align: center;
+    }
+/* ABout me cards */

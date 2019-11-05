@@ -1,0 +1,28 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="avatar" src="/assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+            <strong> Vipul Barodiya</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ">
+            
+            {% for item in site.data.navigation %}
+            <li class="nav-item"  {% if item.link == page.url %} class="nav-item active" {% endif %} >
+                <a class="nav-link" href="{{ item.link }}">                     
+                        {{ item.name }}
+                        {% if item.link == page.url %} <span class="sr-only">(current)</span>{% endif %}
+                </a>
+            </li>      
+            
+            {% endfor %}
+            
+            
+        </ul>
+    </div>
+</div>
+</nav>
