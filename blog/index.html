@@ -96,25 +96,29 @@ layout: page
             <!-- Sidebar -->
             <div class="col-lg-3 col-12 px-4 mt-1 blue-grey lighten-5">
                 
-
-                    <!-- Author -->
-                    {% include blog/author.html %}
-                    {% include blog/featuredposts.html %}
-                    {% include blog/recentposts.html %}
-                    {% include blog/categories.html %}
-                    {% include blog/tags.html %}
-                    {% include blog/newsletter.html %}
-                    {% include blog/archive.html %}
-                    
-                    
-                    
-                    
-                </div>
-                <!-- Sidebar -->
+                
+                <!-- Author -->
+                {% include blog/author.html %}
+                {% if site.posts.size!=0 %}
+                {% include blog/featuredposts.html %}
+                {% include blog/recentposts.html %}
+                {% include blog/categories.html %}
+                {% include blog/tags.html %}
+                
+                {% endif %}
+                {% include blog/newsletter.html %}
+                {% if site.posts.size!=0 %}
+                {% include blog/archive.html %}
+                {% endif %}
+                
+                
                 
             </div>
-            <!-- Blog -->
+            <!-- Sidebar -->
             
         </div>
+        <!-- Blog -->
         
-        
+    </div>
+    
+    

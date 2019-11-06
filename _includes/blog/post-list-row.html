@@ -1,5 +1,5 @@
 <div class="row">
-                            
+    
     <!-- Grid column -->
     <div class="col-lg-5 mb-4">
         <!-- Featured image -->
@@ -19,19 +19,21 @@
         <div class="row">
             
             <!-- Grid column -->
+            {% if post.category %}
             <div class="col-xl-2 col-md-6 text-sm-center text-md-right text-lg-left">
                 <p class="orange-text font-small font-weight-bold mb-1 spacing">
-                    <a>
-                        <strong>DESIGN</strong>
+                    <a href="{{site.base_url}}/blog/categories/{{post.category}}">
+                        <strong>{{post.category| capitalize}}</strong>
                     </a>
                 </p>
             </div>
+            {% endif %}
             <!-- Grid column -->
             
             <!-- Grid column -->
             <div class="col-xl-5 col-md-6 text-sm-center text-md-left">
                 <p class="font-small grey-text">
-                    <em> July 22, 2017</em>
+                    <em>{{ post.date | date: "%b %d, %y" }}</em>
                 </p>
             </div>
             <!-- Grid column -->
@@ -41,16 +43,40 @@
         
         <h4 class="mb-3 dark-grey-text mt-0">
             <strong>
-                <a>This is title of the news</a>
+                <a>{{post.title | | truncatewords: 8, '...'}}</a>
             </strong>
         </h4>
-        <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-            quo minus
-            id vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.
+        <p class="dark-grey-text">{% if post.description %}{{post.description | truncatewords: 32, '...'}}{%else%}{{ post.excerpt | truncatewords: 32, '...'}}{%endif%} 
         </p>
         
         <!-- Deep-orange -->
-        <button type="button" class="btn btn-deep-orange btn-rounded btn-sm">Read more</button>
+        
+        <div class="row">
+            <div class="col-xl-6 col-md-6 text-sm-center text-md-left">
+                <a href="{{ post.url }}"<button type="link"  class="btn btn-deep-orange btn-rounded btn-sm">Read more</button></a>
+            </div>
+            {% if post.tags.size!=0 %}
+            
+            <div class="col-xl-6 col-md-6 text-sm-center text-md-right mt-1 pt-1">
+                <span class="font-weight-bold text-uppercase grey-text">
+                    <i class="fas fa-tags pr-1" aria-hidden="true"></i>
+                    <span > 
+                        {% for tag in post.tags | limit:1 %}
+                        {% capture tag_name %}{{ tag }}{% endcapture %}
+                        <a href="/blog/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                        {% endfor %}
+
+                        {% if post.tags.size > 1%}
+                        <a href=" data-toggle="tooltip" data-placement="bottom"  title="{{ post.tags | | join: ' '}} ">+ ( {{ post.tags.size -1}} )</a> 
+                        {% endif %}
+                        
+                    </span>
+                </span>
+            </div>
+            {% endif %}
+            
+        </div>
+        
     </div>
     <!-- Grid column -->
     

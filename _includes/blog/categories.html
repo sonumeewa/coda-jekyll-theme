@@ -23,7 +23,7 @@
                 
                 <li {% if page.category == category_name  %} class="active" {% endif %}>
                     <h6 class="font-weight-normal">
-                        <a href="/blog/categories/{{ category_name }}" class="dark-grey-text">{{ category_name }} ( {{ site.categories[category_name].size }} )</a>
+                        <a href="{{site.base_url}}/blog/categories/{{ category_name }}" class="dark-grey-text">{{ category_name }} ( {{ site.categories[category_name].size }} )</a>
                     </h6>
                 </li>
         {% endfor %}
