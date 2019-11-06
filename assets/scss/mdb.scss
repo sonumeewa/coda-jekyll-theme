@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE 4.8.11
+ * Version: MDB Blog Templates Pack 4.8.2
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -30,7 +30,6 @@
 // Bootstrap
 @import "core/bootstrap/functions";
 @import "core/bootstrap/variables";
-@import "core/bootstrap/rfs";
 
 // CORE
 @import "core/mixins";
@@ -46,17 +45,16 @@
 
 // FREE
 @import "free/animations-basic";
-@import "free/modules/animations-extended/module";
 @import "free/buttons";
 @import "free/cards";
 @import "free/dropdowns";
-@import "free/input-group";
 @import "free/navbars";
 @import "free/pagination";
 @import "free/badges";
 @import "free/modals";
 @import "free/carousels";
 @import "free/forms";
+@import "free/input-group";
 @import "free/msc";
 @import "free/footers";
 @import "free/list-group";
@@ -65,13 +63,33 @@
 @import "free/steppers";
 @import "free/loader";
 @import "free/treeview";
-// Free addons
-// @import "addons/datatables";
-// @import "addons/datatables-select";
-// @import "addons/directives";
-// @import "addons/hierarchical-display";
-// @import "addons/flags";
-// @import "addons/rating";
+
+// PRO
+@import "pro/variables";
+@import "pro/buttons";
+@import "pro/social-buttons";
+@import "pro/cards-basic";
+@import "pro/dropdowns";
+@import "pro/navbars";
+@import "pro/scrollspy";
+@import "pro/lightbox";
+@import "pro/msc";
+@import "pro/forms";
+@import "pro/accordion-basic";
+@import "pro/parallax";
+@import "pro/carousels";
+@import "pro/blog";
+@import "pro/animations";
+@import "pro/scrollbar";
+// Your custom skin
+@import "pro/depreciated";
+
+// Sections
+@import "pro/sections/templates";
+@import "pro/sections/testimonials";
+@import "pro/sections/magazine";
+@import "pro/sections/contacts";
 
 // Your custom styles
 @import "custom-styles";
+@import "blog/style";

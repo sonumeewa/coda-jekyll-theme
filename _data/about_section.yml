@@ -1,0 +1,20 @@
+# Hello World quote on about section 
+-  type: quote
+   heading_quote: Hello World!
+   subheading_quote: ~No day, But today~
+  
+# first card in about section 
+-  type: About card 1
+   heading:  Material Design Blocks
+   description: Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.
+   image: https://mdbootstrap.com/img/illustrations/graphics(4).png
+   button_text: Download
+   button_url: http://sonumeewa.github.io
+
+# second card in about section
+-  type: About card 2
+   heading:  Material Design Blocks
+   description: Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.
+   image: https://mdbootstrap.com/img/illustrations/graphics(4).png
+   button_text: Download
+   button_url: http://sonumeewa.github.io

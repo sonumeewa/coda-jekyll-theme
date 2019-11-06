@@ -1,0 +1,43 @@
+<!-- Title -->
+{% if site.tags.size!=0 %}
+
+<hr>
+<p class="font-weight-bold dark-grey-text text-center spacing">
+    <strong>Tags</strong>
+</p>
+<hr>
+
+<!-- Archive -->
+<section class="archive mb-5">
+    
+    <!-- Grid row -->
+    <div class="row">
+        
+        <!-- Grid column -->
+        <div class="col-md-12 text-center">
+            
+            <!-- List -->
+            <ul class="list-unstyled">
+                {% for tag in site. tags %}
+                {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                
+                <li {% if page.tag == tag_name  %} class="active" {% endif %}>
+                    <h6 class="font-weight-normal">
+                        <a href="/blog/tags/{{ tag_name }}" class="dark-grey-text">{{ tag_name }} ( {{ site.tags[tag_name].size }} )</a>
+                    </h6>
+                </li>
+        {% endfor %}
+
+               
+            </ul>
+            <!-- List -->
+            
+        </div>
+        <!-- Grid column -->
+        
+    </div>
+    <!-- Grid row -->
+    
+</section>
+<!-- Archive -->
+{% endif %}

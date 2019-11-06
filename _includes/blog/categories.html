@@ -1,0 +1,43 @@
+<!-- Title -->
+{% if site.categories.size!=0 %}
+
+<hr>
+<p class="font-weight-bold dark-grey-text text-center spacing">
+    <strong>Categories</strong>
+</p>
+<hr>
+
+<!-- Archive -->
+<section class="archive mb-5">
+    
+    <!-- Grid row -->
+    <div class="row">
+        
+        <!-- Grid column -->
+        <div class="col-md-12 text-center">
+            
+            <!-- List -->
+            <ul class="list-unstyled ">
+                {% for category in site. categories %}
+                {% capture category_name %}{{ category | first }}{% endcapture %}
+                
+                <li {% if page.category == category_name  %} class="active" {% endif %}>
+                    <h6 class="font-weight-normal">
+                        <a href="/blog/categories/{{ category_name }}" class="dark-grey-text">{{ category_name }} ( {{ site.categories[category_name].size }} )</a>
+                    </h6>
+                </li>
+        {% endfor %}
+
+               
+            </ul>
+            <!-- List -->
+            
+        </div>
+        <!-- Grid column -->
+        
+    </div>
+    <!-- Grid row -->
+    
+</section>
+<!-- Archive -->
+{% endif %}

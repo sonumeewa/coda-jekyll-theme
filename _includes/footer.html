@@ -1,9 +1,8 @@
 <!--Footer-->
-
-
-    <!-- Social icons -->
+    {% assign socials ={{site.data.footer[1].socials}} %}
+<!-- Social icons -->
     <div class="pb-4">
-            {% for item in site.data.footer %}
+    {% for item in socials %}
         <a href="{{ item.link }}" target="_blank">
             <i class="fab fa-{{ item.name }} mr-3"></i>
         </a>
@@ -13,9 +12,10 @@
     </div>
     <!-- Social icons -->
     <!--Copyright-->
+    {% assign copyright ={{site.data.footer[0]}} %}
     <div class="footer-copyright py-3">
-        © 2019 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+        © {{copyright.year}} Copyright:
+        <a href="{{ copyright.url}}" target="_blank"> {{ copyright.name}} </a>
     </div>
     <!--/.Copyright-->
     

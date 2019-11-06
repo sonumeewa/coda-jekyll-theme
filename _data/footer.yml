@@ -1,15 +1,25 @@
-- link: https://www.facebook.com/sonumeewa
-  name: facebook
-- link: https://www.github.com/sonumeewa
-  name: github
-- link: https://www.twitter.com/VipulBarodiya
-  name: twitter
-- link: https://www.instagram.com/VipulBarodiya1
-  name: instagram
-- link: https://www.codepen.io/sonumeewa
-  name: codepen
-- link: https://www.pintereset.com/sonumeewa
-  name: pinterest
-- link: https://www.linkedin.com/in/sonumeewa
-  name: linkedin
+#navbrand logo and brand name
+-  name: Vipul Barodiya
+   year: 2019
+   url: http://sonumeewa.github.io/
+    #logo avatar image 295 x295
+#nav items including dropdown in subnav
+-  socials:
+    - link: https://www.facebook.com/sonumeewa
+      name: facebook
+    - link: https://www.github.com/sonumeewa
+      name: github
+    - link: https://www.twitter.com/VipulBarodiya
+      name: twitter
+    - link: https://www.instagram.com/VipulBarodiya1
+      name: instagram
+    - link: https://www.codepen.io/sonumeewa
+      name: codepen
+    - link: https://www.pintereset.com/sonumeewa
+      name: pinterest
+    - link: https://www.linkedin.com/in/sonumeewa
+      name: linkedin
+
+
+
 

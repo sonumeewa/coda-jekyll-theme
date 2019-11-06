@@ -1,6 +1,8 @@
--  navbrand:
-    name: Vipul Barodiya
-    avatar: /assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png
+#navbrand logo and brand name
+-  name: Vipul Barodiya
+    #logo avatar image 295 x295
+   avatar: /assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png
+#nav items including dropdown in subnav
 -  navitems:
     - link: /
       img: /assets/img/kisspng-web-development-programmer-computer-programming-we-5b4e84942fef07.0964342515318724041964.png

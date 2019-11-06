@@ -5,39 +5,74 @@ heading: Tag
 headingvar: tag
 ---
 <!--Main Navigation-->
+
 <!--Main layout-->
-<main>
-        <div class="container-fluid">
-        {% include blog-header.html %}
-
-        {% include blog-text-header.html %}
-            <section>
-                <div class="row">
-                    <div class="offset-md-1 col-md">
-                        
-                        {% for post in site.tags[page.tag] %}
-                        
-                      {% include post-list-row.html%}
-                        
-                        
-                        {% endfor%}
-                    </div>
-                    <div class="col-md-2 mb-4">
-                            {% include categorylist.html %}
-                            {% include taglist.html %}
-                                            
+<!--Section: Jumbotron-->
+{% include blog/blog-header.html %}    
+<div class="container mt-5 pt-3">
     
-                        <div class="row">
-                            
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="m-5 p-5">
-
-            </section>
-            <!--Section: Cards-->
+    <!-- Excerpt -->
+    <a href="">
+        <h6 class="text-center font-weight-bold blue-text">
+            <strong>HELLO WORLD!</strong>
+        </h6>
+    </a>
+    <h1 class="text-center font-weight-bold dark-grey-text py-3">
+        <strong>Welcome on my blog</strong>
+    </h1>
+    
+    <p class="grey-text text-center mb-5 pb-3">
+        <em>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae sit aspernatur
+            aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</em>
+        </p>
+        
+        <hr>
+        
+        <!-- Blog -->
+        <div class="row mt-5 pt-3">
+            
+            <!-- Main listing -->
+            <div class="col-lg-9 col-12 mt-1">
+                
+                <!-- Section: Blog v.3 -->
+                <section class="pb-3 text-center text-lg-left">
+                    
+                    <!-- Grid row -->
+                    {% for post in site.tags[page.tag] %}
+                    {% include blog/post-list-row.html %}
+                    <hr class="mb-5">
+                    {% endfor %}
+                    <!-- Grid row -->
+                </section>
+                <!-- Section: Blog v.3 -->
+                
+                
+            </div>
+            <!-- Main listing -->
+            
+            <!-- Sidebar -->
+            <div class="col-lg-3 col-12 px-4 mt-1 blue-grey lighten-5">
+                
+                
+                <!-- Author -->
+                {% include blog/author.html %}
+                {% include blog/featuredposts.html %}
+                {% include blog/recentposts.html %}
+                {% include blog/categories.html %}
+                {% include blog/tags.html %}
+                {% include blog/newsletter.html %}
+                {% include blog/archive.html %}
+                
+                
+                
+                
+            </div>
+            <!-- Sidebar -->
+            
         </div>
-    </main>
+        <!-- Blog -->
+        
+    </div>
     
     

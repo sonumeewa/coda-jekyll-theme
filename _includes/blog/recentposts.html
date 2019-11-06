@@ -1,0 +1,52 @@
+ <!-- Title -->
+ <hr>
+ <p class="font-weight-bold dark-grey-text text-center spacing">
+     <strong>RECENT POSTS</strong>
+ </p>
+ <hr>
+ <!-- Section: Recent posts -->
+ <section class="section mb-5">
+    {% for post in site.posts reversed  limit:5%}
+     
+     <div class="post-border">
+         
+         <!-- Grid row -->
+         <div class="row mt-4">
+             
+             <!-- Grid column -->
+             <div class="col-5">
+                 
+                 <!-- Image -->
+                 <div class="view overlay z-depth-1 mb-3">
+                     <img src="https://mdbootstrap.com/img/Photos/Others/project1.jpg" class="img-fluid" alt="Post">
+                     <a>
+                         <div class="mask rgba-white-slight"></div>
+                     </a>
+                 </div>
+                 
+             </div>
+             <!-- Grid column -->
+             
+             <!-- Second column -->
+             <div class="col-7 mb-1">
+                 
+                 <!-- Post data -->
+                 <div class="">
+                     <p class="mb-1">
+                         <a href="#!" class="text-hover font-weight-bold">This is news title</a>
+                     </p>
+                     <p class="font-small grey-text">
+                         <em>July 22, 2017</em>
+                     </p>
+                 </div>
+                 
+             </div>
+             <!-- Second column -->
+             
+         </div>
+         <!-- Grid row -->
+         
+     </div>
+     {% endfor %}
+ </section>
+ <!-- Section: Recent posts -->

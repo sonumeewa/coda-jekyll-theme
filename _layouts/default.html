@@ -12,10 +12,10 @@
   <link href="https://orianna-zzo.github.io/css/font.css" rel="stylesheet"> 
   
 {% if site.tags != "" %}
-  {% include collecttags.html %}
+  {% include blog/collecttags.html %}
 {% endif %}
 {% if site.categories != "" %}
-  {% include collecttags.html %}
+  {% include blog/collecttags.html %}
 {% endif %}
 
 
@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <header>
+<header>
     {% include navigation.html %}
 </header>
 <!--/.Navbar-->
