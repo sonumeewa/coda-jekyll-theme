@@ -18,6 +18,12 @@
   {% include blog/collecttags.html %}
 {% endif %}
 
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
+
+
 
   <!-- Bootstrap core CSS -->
   <link href="/assets/css/bootstrap.min.css" rel="stylesheet">

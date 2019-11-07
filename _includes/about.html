@@ -23,9 +23,9 @@
                     
                     <i class="fas fa-{{profession.icon}} fa-3x mb-4" aria-hidden="true"></i>
                     
-                    <h5 class="font-weight-bold text-uppercase mb-4">{{ profession.name}}</h5>
+                    <h5 class="font-weight-bold {{ profession.text_color | default: 'dark-grey-text'}} text-uppercase mb-4">{{ profession.name}}</h5>
                     
-                    <p class="dark-grey-text">{{ profession.description}}</p>
+                    <p class="{{ profession.text_color | default: 'dark-grey-text'}} lighten-2">{{ profession.description}}</p>
                     
                 </div>
                 <!-- Panel -->

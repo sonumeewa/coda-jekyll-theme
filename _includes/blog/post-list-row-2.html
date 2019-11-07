@@ -1,0 +1,33 @@
+<div class="row mt-4">
+                                                
+        <!-- Grid column -->
+        <div class="col-4">
+            
+            <!-- Image -->
+            <div class="view overlay z-depth-1 mb-3">
+                <img src="{{ post.image | defaults: "https://mdbootstrap.com/img/Photos/Others/photo12.jpg"}}" class="img-fluid" alt="Post">
+                <a>
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Second column -->
+        <div class="col-8 mb-1">
+            
+            <!-- Post data -->
+            <div class="">
+                <p class="mb-1">
+                    <a href="{{ post.url }}" class="text-hover font-weight-bold">{{ post.title  | truncatewords: 5, '...'}}</a>
+                </p>
+                <p class="font-small grey-text">
+                    <em>{{ post.date | date: "%b %d, %y" }}</em>
+                </p>
+            </div>
+            
+        </div>
+        <!-- Second column -->
+        
+    </div>

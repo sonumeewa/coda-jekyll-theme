@@ -6,9 +6,10 @@ professions:
    icon: laptop
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
 -  name: developer
-   icon: code
-   color: cyan
+   icon: code white-text
+   color: unique-color-dark
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+   text_color: white-text
 -  name: designer
    icon: pencil-alt
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.

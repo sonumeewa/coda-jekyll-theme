@@ -47,7 +47,7 @@
       description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
    -  name: developer
       icon: code
-      color: cyan
+      color: unique-color-dark light-grey-text
       description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
    -  name: designer
       icon: pencil-alt
@@ -130,6 +130,17 @@
   tag_blog_list_heading: Welcome to my <strong>Blog</strong>
   tag_blog_list_subheading: 'Category: {{ page.category }}'
   tag_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+
+  author_name: Vipul barodiya
+  author_description: I am a developer, artist, singer, dancer etc.
+  author_image_portrait: /assets/img/avatar/1.jpg
+  author_image_landscape: /assets/img/avatar/1.jpg
+  author_facebook: http://facebook.com/sonumeewa
+  author_twitter: http://twitter.com/VipulBarodiya
+  author_Github: http://github.com/sonumeewa
+
+
+
 
   navbar_name: Coda Jekyll Theme
   #logo avatar image 295 x295
