@@ -1,15 +1,20 @@
-- link: https://www.facebook.com/sonumeewa
-  name: facebook
-- link: https://www.github.com/sonumeewa
-  name: github
-- link: https://www.twitter.com/VipulBarodiya
-  name: twitter
-- link: https://www.instagram.com/VipulBarodiya1
-  name: instagram
-- link: https://www.codepen.io/sonumeewa
-  name: codepen
-- link: https://www.pintereset.com/sonumeewa
-  name: pinterest
-- link: https://www.linkedin.com/in/sonumeewa
-  name: linkedin
+---
+ name: coda <strong>jekyll theme</strong> 
+ quote_1: Be responsive
+ quote_2: Be a good theme
+ quote_3: Make jekyll sites beautiful
+ avatar_image: /assets/img/avatar/1.jpg
+ background_images:
+  - src: https://mdbootstrap.com/img/Photos/Others/images/76.jpg
+  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg
+  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg
+ socials:
+  - name: github
+    link: http://www.github.com/sonumeewa
+  - name: linkedin
+    link: http://www.linkedin.com/in/sonumeewa
+  - name: twitter
+    link: http://www.twitter.com/VipulBarodiya
+  - name: envelope
+    link: mailto:test@test.com
 

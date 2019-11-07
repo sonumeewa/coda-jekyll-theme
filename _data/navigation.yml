@@ -1,37 +1,37 @@
-#navbrand logo and brand name
--  name: Vipul Barodiya
-    #logo avatar image 295 x295
-   avatar: /assets/img/1.png
+---
+ name: Coda Jekyll Theme
+ #logo avatar image 295 x295
+ avatar: /assets/img/1.png
 #nav items including dropdown in subnav
--  navitems:
-    - link: /
-      img: /assets/img/1.png
-      type: avatar
-    - link: /
-      brand: Vipul Barodiya
-      type: navbrand
-    - link: /
-      name: Home
-      type: item
-    - link: /#about
-      name: About
-      type: item
-    - link: /#projects
-      name: Projects
-      type: item
-    - link: /#contact
-      name: Contact
-      type: item
-    - link: /blog/
-      name: Blog
-      type: dropdown
-      subnav:
-        - link: /blog/index.html
-          name: All
-        - link: /blog/categories/personal
-          name: Personal
-        - link: /blog/categories/home
-          name: Home
+ navitems:
+  - link: /
+    img: /assets/img/1.png
+    type: avatar
+  - link: /
+    brand: Coda
+    type: navbrand
+  - link: /
+    name: Home
+    type: item
+  - link: /#about
+    name: About
+    type: item
+  - link: /#projects
+    name: Projects
+    type: item
+  - link: /#contact
+    name: Contact
+    type: item
+  - link: /blog/
+    name: Blog
+    type: dropdown
+    subnav:
+      - link: /blog/index.html
+        name: All
+      - link: /blog/categories/personal
+        name: Personal
+      - link: /blog/categories/home
+        name: Home
 
 
 

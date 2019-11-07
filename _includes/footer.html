@@ -1,5 +1,5 @@
 <!--Footer-->
-    {% assign socials ={{site.data.footer[1].socials}} %}
+{% assign socials = site.data.footer.socials | defaults: site.data.defaults.socials %}
 <!-- Social icons -->
     <div class="pb-4">
     {% for item in socials %}
@@ -12,10 +12,10 @@
     </div>
     <!-- Social icons -->
     <!--Copyright-->
-    {% assign copyright ={{site.data.footer[0]}} %}
     <div class="footer-copyright py-3">
-        © {{copyright.year}} Copyright:
-        <a href="{{ copyright.url}}" target="_blank"> {{ copyright.name}} </a>
+        © {{site.data.footer.year | defaults: site.data.defaults.copyright_year}} Copyright | 
+        <a href="{{site.data.footer.url | defaults: site.data.defaults.copyright_url}}" target="_blank">
+             {{site.data.footer.name | defaults: site.data.defaults.copyright_name}} </a>
     </div>
     <!--/.Copyright-->
     

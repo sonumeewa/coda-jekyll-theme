@@ -1,0 +1,167 @@
+---
+  about_section_heading: About <strong>Me</strong>
+  about_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  projects_section_heading: My <strong>Projects</strong>
+  projects_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  
+  contact_section_heading: Get in <strong>Touch</strong>
+  contact_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  contact_section_card_heading: '@<strong>LinkedIn</strong>'
+  contact_section_card_descption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  contact_section_card_image: https://mdbootstrap.com/img/illustrations/graphics(4).png
+  contact_section_card_button_text: Connect
+  contact_section_card_button_url: http://www.linkedin.com/in/sonumeewa
+
+  copyright_name: coda
+  copyright_year: 2019
+  copyright_url: http://github.com/sonumeewa
+
+
+  main_carousel_name: Vipul <strong>Barodiya</strong>
+  main_carousel_quote_1: Be the change
+  main_carousel_quote_2: you want to see
+  main_carousel_quote_3: in the world
+  main_carousel_avatar: /assets/img/avatar/1.jpg
+  main_carousel_socials:
+  - name: github
+    link: http://www.github.com/sonumeewa
+  - name: linkedin
+    link: http://www.linkedin.com/in/sonumeewa
+  - name: twitter
+    link: http://www.twitter.com/VipulBarodiya
+  - name: envelope
+    link: mailto:test@test.com
+
+
+  
+
+  main_carousel_backgrounds:
+  - src: https://mdbootstrap.com/img/Photos/Others/images/76.jpg
+  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg
+  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg
+
+
+  professions:
+   -  name: freelancer
+      icon: laptop
+      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+   -  name: developer
+      icon: code
+      color: cyan
+      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+   -  name: designer
+      icon: pencil-alt
+      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+   
+  experience:
+   -  title: Senior developer
+      duration: July, 2011 - July, 2013 (2 years)
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   -  title: JavaScript developer
+      duration: July, 2013 - July,2015 (2 years)
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   -  title: Web developer
+      duration: July, 2015 - Present (4 years)
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      
+  skills:
+   -  name: JavaScript
+      percentage: 25
+   -  name: HTML5
+      percentage: 25
+   -  name: CSS3
+      percentage: 25
+   -  name: Bootstrap
+      percentage: 25
+   -  name: PHP
+      percentage: 25
+  projects:
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+   
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+   
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+   
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+   
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+   
+   -  name: Project title
+      description: Some quick example text to build on the card title and make up the bulk of the card's content.
+      button_text: Github
+      button_url: http://sonumeewa.github.io/
+      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+
+  blog_carousel_backgrounds:
+   -  image: "https://mdbootstrap.com/img/Photos/Others/city11.jpg"
+   -  image: "https://mdbootstrap.com/img/Photos/Others/city13.jpg"
+  blog_list_heading: Welcome to my <strong>Blog</strong> 
+  blog_list_subheading: 'All Blogs'
+  blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  category_blog_list_heading: Welcome to my <strong>Blog</strong>
+  category_blog_list_subheading: 'Tag: {{ page.tag }}'
+  category_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+  tag_blog_list_heading: Welcome to my <strong>Blog</strong>
+  tag_blog_list_subheading: 'Category: {{ page.category }}'
+  tag_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+
+  navbar_name: Coda Jekyll Theme
+  #logo avatar image 295 x295
+  navbar_avatar: /assets/img/1.png
+ #nav items including dropdown in subnav
+  navbar_navitems:
+   - link: /
+     img: /assets/img/1.png
+     type: avatar
+   - link: /
+     brand: Coda
+     type: navbrand
+   - link: /
+     name: Home
+     type: item
+   - link: /#about
+     name: About
+     type: item
+   - link: /#projects
+     name: Projects
+     type: item
+   - link: /#contact
+     name: Contact
+     type: item
+   - link: /blog/
+     name: Blog
+     type: dropdown
+     subnav:
+       - link: /blog/index.html
+         name: All
+       - link: /blog/categories/personal
+         name: Personal
+       - link: /blog/categories/home
+         name: Home
+ 

@@ -1,6 +1,6 @@
 <hr>
 <p class="font-weight-bold dark-grey-text text-center spacing">
-    <strong>FEATURED POSTS</strong>
+        FEATURED<strong> POSTS</strong>
 </p>
 <hr>
 
@@ -36,7 +36,7 @@
                     <div class="carousel-item {% if counter==1 %} active {%endif%}">
                         <!-- Mask color -->
                         <div class="view">
-                            <img src="https://mdbootstrap.com/img/Photos/Others/photo1.jpg" class="img-fluid" alt="">
+                            <img src="{{post.image}}" class="img-fluid" alt="">
                             <a href="#!">
                                 <div class="mask flex-center rgba-black-light"></div>
                             </a>
@@ -45,10 +45,10 @@
                         <div class="carousel-caption">
                             <div class="animated fadeInDown">
                                 <h4 class="h4-responsive">
-                                    <a href="#!" class="white-text font-weight-bold">News title</a>
+                                    <a href="{{ post.url }}" class="white-text font-weight-bold">{{post.title | truncatewords: 3, '...' | capitalize }}</a>
                                 </h4>
                                 <p>
-                                    <a href="#!" class="white-text">Lorem ipsum dolor sit</a>
+                                    <a href="{{ post.url }}" class="white-text">{% if post.description %}{{post.description | truncatewords: 4, '...'}}{%else%}{{ post.excerpt | truncatewords: 4, '...'}} {%endif%} </a>
                                 </p>
                             </div>
                         </div>

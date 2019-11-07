@@ -4,6 +4,7 @@ title: My First Blog Post
 tags: github google fb
 category: personal
 featured: true
+image: https://mdbootstrap.com/img/Photos/Others/project1.jpg
 ---
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
 the site to see your changes. You can rebuild the site in many different ways, but

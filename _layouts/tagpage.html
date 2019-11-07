@@ -14,17 +14,15 @@ headingvar: tag
     <!-- Excerpt -->
     <a href="">
         <h6 class="text-center font-weight-bold blue-text">
-            <strong>HELLO WORLD!</strong>
+            <strong>{{site.data.blog.list.subheading| default: site.data.defaults.tag_blog_list_subheading}}</strong>
         </h6>
     </a>
     <h1 class="text-center font-weight-bold dark-grey-text py-3">
-        <strong>Welcome on my blog</strong>
+        <strong>{{site.data.blog.list.heading| default: site.data.defaults.tag_blog_list_heading}}</strong>
     </h1>
     
     <p class="grey-text text-center mb-5 pb-3">
-        <em>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae sit aspernatur
-            aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi.</em>
+        <em>{{site.data.blog.list.description| default: site.data.defaults.tag_blog_list_heading}}</em>
         </p>
         
         <hr>
@@ -56,14 +54,17 @@ headingvar: tag
                 
                 
                 <!-- Author -->
-                {% include blog/author.html %}
+                {% if site.posts.size!=0 %}
                 {% include blog/featuredposts.html %}
                 {% include blog/recentposts.html %}
                 {% include blog/categories.html %}
                 {% include blog/tags.html %}
-                {% include blog/newsletter.html %}
-                {% include blog/archive.html %}
                 
+                {% endif %}
+                {% if site.posts.size!=0 %}
+                {% include blog/archive.html %}
+                {% endif %}
+                {% include blog/newsletter.html %}
                 
                 
                 
