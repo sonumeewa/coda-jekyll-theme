@@ -1,5 +1,5 @@
 <!--Footer-->
-{% assign socials = site.data.footer.socials | defaults: site.data.defaults.socials %}
+{% assign socials = site.data.footer.socials | default: site.data.default.socials %}
 <!-- Social icons -->
     <div class="pb-4">
     {% for item in socials %}
@@ -13,9 +13,9 @@
     <!-- Social icons -->
     <!--Copyright-->
     <div class="footer-copyright py-3">
-        © {{site.data.footer.year | defaults: site.data.defaults.copyright_year}} Copyright | 
-        <a href="{{site.data.footer.url | defaults: site.data.defaults.copyright_url}}" target="_blank">
-             {{site.data.footer.name | defaults: site.data.defaults.copyright_name}} </a>
+        © {{site.data.footer.year | default: site.data.default.copyright_year}} Copyright | 
+        <a href="{{site.data.footer.url | default: site.data.default.copyright_url}}" target="_blank">
+             {{site.data.footer.name | default: site.data.default.copyright_name}} </a>
     </div>
     <!--/.Copyright-->
     

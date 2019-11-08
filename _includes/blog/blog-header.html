@@ -1,7 +1,7 @@
     <!-- Carousel Wrapper -->
     <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-half" data-ride="carousel">
         <!-- Indicators -->
-        {% assign carousel_backgrounds = site.data.blog.list.carousel_backgrounds | defaults: site.data.defaults.blog_carousel_backgrounds %}
+        {% assign carousel_backgrounds = site.data.blog.list.carousel_backgrounds | default: site.data.default.blog_carousel_backgrounds %}
         <ol class="carousel-indicators">
             {% assign j =0 %}
             {% for item in carousel_backgrounds %}

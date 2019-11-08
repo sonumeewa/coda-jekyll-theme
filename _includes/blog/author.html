@@ -9,30 +9,30 @@
                     
                     <!-- Avatar -->
                     <div class="flex-center mt-4">
-                        <img src="{{ site.data.blog.author.image_portrait | defaults: site.data.defaults.author_image_portrait }}" class="img-fluid img-author">
+                        <img src="{{ site.data.blog.author.image_portrait | default: site.data.default.author_image_portrait }}" class="img-fluid img-author">
                     </div>
                     
                     <!-- Description -->
                     <p class="mt-3 dark-grey-text font-small text-center">
-                        <em>{{ site.data.blog.author.description | defaults: site.data.defaults.author_description }}</em>
+                        <em>{{ site.data.blog.author.description | default: site.data.default.author_description }}</em>
                         </p>
                         
                         <ul class="list-unstyled list-inline-item circle-icons list-unstyled flex-center">
                             <!-- Facebook -->
                             <li>
-                                <a href="{{ site.data.blog.author.facebook | defaults: site.data.defaults.author_facebook }}" class="fb-ic"></a>
+                                <a href="{{ site.data.blog.author.facebook | default: site.data.default.author_facebook }}" class="fb-ic"></a>
                                     <i class="fab fa-facebook-f"> </i>
                                 </a>
                             </li>
                             <!-- Twitter -->
                             <li>
-                                <a href="{{ site.data.blog.author.twitter | defaults: site.data.defaults.author_twitter }}" class="tw-ic"></a>
+                                <a href="{{ site.data.blog.author.twitter | default: site.data.default.author_twitter }}" class="tw-ic"></a>
                                     <i class="fab fa-twitter"> </i>
                                 </a>
                             </li>
                             <!-- Google + -->
                             <li>
-                                <a href="{{ site.data.blog.author.github | defaults: site.data.defaults.author_github }}" class="gplus-ic"></a>
+                                <a href="{{ site.data.blog.author.github | default: site.data.default.author_github }}" class="gplus-ic"></a>
                                     <i class="fab fa-github"> </i>
                                 </a>
                             </li>

@@ -21,7 +21,7 @@
             </div>
             
             <!-- Description -->
-            {% assign experiences = site.data.about.experience | defaults : site.data.defaults.experience %}
+            {% assign experiences = site.data.about.experience | default : site.data.default.experience %}
 
             {% for item in experiences %}
             <blockquote class="blockquote bq-primary mb-4">
@@ -55,7 +55,7 @@
               {% if site.data.about.skill %}
               {% assign skills = site.data.about.skills %}
               {% else %}
-              {% assign skills = site.data.defaults.skills %}
+              {% assign skills = site.data.default.skills %}
               {% endif %}
               
               {% for skill in skills %}

@@ -12,9 +12,9 @@ layout: default
     <section>
         <div class="container-fluid">
             <h1 class="text-center dark-grey-text pb-3 mt-5 pt-5">
-                {{ site.data.blog.post.heading | defaults: site.data.defaults.post_section_heading }}</h1>
+                {{ site.data.blog.post.heading | default: site.data.default.post_section_heading }}</h1>
                 
-                <p class="grey-text text-center mb-4 text-uppercase spacing">{{ site.data.blog.post.subheading | defaults: site.data.defaults.post_section_subheading }} </p>
+                <p class="grey-text text-center mb-4 text-uppercase spacing">{{ site.data.blog.post.subheading | default: site.data.default.post_section_subheading }} </p>
                 
                 <!-- Grid row -->
                 <div class="row flex-center">
@@ -23,7 +23,7 @@ layout: default
                     <div class="col-md-10 col-xl-5">
                         
                         <p class="grey-text text-center">
-                            <em>{{ site.data.blog.post.description | defaults: site.data.defaults.post_section_description }}</em>
+                            <em>{{ site.data.blog.post.description | default: site.data.default.post_section_description }}</em>
                         </p>
                         
                     </div>
@@ -163,9 +163,9 @@ layout: default
                                         <div class="col-lg-4 col-md-12">
                                             <h6 class="font-weight-bold mt-5 mb-3">ABOUT</h6>
                                             <hr class="mb-5">
-                                            <img src="{{ site.data.blog.author.image_portrait | defaults: site.data.defaults.author_image_portrait}}" alt="sample image"
+                                            <img src="{{ site.data.blog.author.image_portrait | default: site.data.default.author_image_portrait}}" alt="sample image"
                                             class="img-fluid z-depth-1">
-                                            <p class="mt-4 mb-5">{{site.data.blog.author.description | defaults: site.data.defaults.author_description}}</p>
+                                            <p class="mt-4 mb-5">{{site.data.blog.author.description | default: site.data.default.author_description}}</p>
                                         </div>
                                         <!-- Grid column -->
                                         <!-- Grid column -->

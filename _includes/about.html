@@ -7,13 +7,13 @@
     <section  class="section feature-box mb-5">
         
         <!-- Section title -->
-        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">{{site.data.about.heading | defaults: site.data.defaults.about_section_heading}}</h2>
+        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">{{site.data.about.heading | default: site.data.default.about_section_heading}}</h2>
         
-        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.about.description | defaults: site.data.defaults.description}} </p>
+        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.about.description | default: site.data.default.description}} </p>
         
         <!-- First row -->
         <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
-            {% assign professions = site.data.about.professions | defaults: site.data.defaults.professions %}
+            {% assign professions = site.data.about.professions | default: site.data.default.professions %}
             {% for profession in professions %}
             <!-- First column -->
             <div class="col-md-4 mb-5">

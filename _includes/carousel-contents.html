@@ -4,29 +4,29 @@
                 <div class=" row mx-0 headfont mb-5 pb-3">
                   <div class="col-12 col-sm-5 align-middle">
                     <a href="https://www.sonumeewa.github.io/">
-                      <img class="pull-right avatar avatar-lg " src="{{site.data.carousel.avatar_image | default: site.data.defaults.main_carousel_avatar}}" alt="" >
+                      <img class="pull-right avatar avatar-lg " src="{{site.data.carousel.avatar_image | default: site.data.default.main_carousel_avatar}}" alt="" >
                     </a>
                   </div>
                   <div class="col-12 col-sm-7 text-left pl-5">
                     <a href="https://sonumeewa.github.io/">
                       <h1 class="display-4 mb-2 mt-2 h1">
-                        <strong>{{site.data.carousel.name  | default: site.data.defaults.main_carousel_name | capitalize}}</strong>
+                        <strong>{{site.data.carousel.name  | default: site.data.default.main_carousel_name | capitalize}}</strong>
                       </h1>
                     </a>
                     
                     <p class="mb-0 p" style="font-size: 1.250rem; font-weight: 200;">
-                            {{site.data.carousel.quote_1 | default: site.data.defaults.main_carousel_quote_1 |  capitalize}}
+                            {{site.data.carousel.quote_1 | default: site.data.default.main_carousel_quote_1 |  capitalize}}
                     </p>
                     
                     <p class="mb-0 p" style="font-size: 1.250rem; font-weight: 200;">
-                            {{site.data.carousel.quote_2 | default: site.data.defaults.main_carousel_quote_2 |  capitalize}}
+                            {{site.data.carousel.quote_2 | default: site.data.default.main_carousel_quote_2 |  capitalize}}
                     </p>
                     
                     <p class="mb-0 p" style="font-size: 1.250rem; font-weight: 200;">
-                            {{site.data.carousel.quote_3 | default: site.data.defaults.main_carousel_quote_3 |  capitalize}}
+                            {{site.data.carousel.quote_3 | default: site.data.default.main_carousel_quote_3 |  capitalize}}
                     </p>
 
-                    {% assign socials = site.data.carousel.socials| default: site.data.defaults.main_carousel_socials %}
+                    {% assign socials = site.data.carousel.socials| default: site.data.default.main_carousel_socials %}
                             
                     <div class="mt-2" style="font-size: 2rem; color: white;">
                     {% for item in socials %}

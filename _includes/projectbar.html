@@ -3,14 +3,14 @@
         
         <!-- Second section -->
         <section>
-          <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">{{site.data.projects.heading | defaults: site.data.defaults.projects_section_heading}} </h2>
+          <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">{{site.data.projects.heading | default: site.data.default.projects_section_heading}} </h2>
           
-          <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.projects.description | defaults: site.data.defaults.projects_section_description}} </p>
+          <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.projects.description | default: site.data.default.projects_section_description}} </p>
           
           <div class="row">
             
             <!--First columnn-->
-            {% assign projects = site.data.projects.projects | defaults: site.data.defaults.projects %}
+            {% assign projects = site.data.projects.projects | default: site.data.default.projects %}
             {% for project in projects %}
             {% include projects.html %}
             {% endfor %}

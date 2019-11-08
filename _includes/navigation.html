@@ -1,8 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
         <a class="navbar-brand" href="{{site.base_url }}">
-            <img class="avatar" src="{{site.data.navigation.avatar | defaults: site.data.defaults.navbar_avatar }}" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
-            <strong>{{site.data.navigation.name| defaults: site.data.defaults.navbar_name }}</strong>
+            <img class="avatar" src="{{site.data.navigation.avatar | default: site.data.default.navbar_avatar }}" style="width: 40px!important;height: auto;"  class="d-inline-block align-top" alt="" >
+            <strong>{{site.data.navigation.name| default: site.data.default.navbar_name }}</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto ">
-    {% for item in site.data.navigation.navitems | defaults: site.data.defaults.navbar_navitems %}
+    {% for item in site.data.navigation.navitems | default: site.data.default.navbar_navitems %}
         {% if item.subnav %}
             <li class="nav-item dropdown">
                 <a href="{{ item.link }}" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"
