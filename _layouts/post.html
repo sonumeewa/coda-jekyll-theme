@@ -76,7 +76,7 @@ layout: default
                                                 </h4>
                                                 <hr>
                                                 <!-- Text -->
-                                                {{ post.content | default: "hjv"}}
+                                                {{ content | default: "hjv"}}
                                                 <hr>
                                                 {% if site.disqus.shortname %}
                                                 {% include disqus_comments.html %}
