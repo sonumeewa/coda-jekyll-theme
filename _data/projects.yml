@@ -3,44 +3,44 @@ heading: Projects
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia.
 projects:
 -  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
+   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
    button_text: Github
-   button_url: http://sonumeewa.github.io/
+   button_url: http://github.com/sonumeewa
    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 
--  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
+-  name: Project title 2
+   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
    button_text: Github
-   button_url: http://sonumeewa.github.io/
+   button_url: http://github.com/sonumeewa
    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 
--  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
+-  name: Project title 3
+   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
    button_text: Github
-   button_url: http://sonumeewa.github.io/
+   button_url: http://github.com/sonumeewa
    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 
--  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
+-  name: Project title 4
+   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
    button_text: Github
-   button_url: http://sonumeewa.github.io/
+   button_url: http://github.com/sonumeewa
    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 
--  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
+-  name: Project title 5
+   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
    button_text: Github
-   button_url: http://sonumeewa.github.io/
+   button_url: http://github.com/sonumeewa
    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 
--  name: Project title
-   description: Some quick example text to build on the card title and make up the bulk of the card's content.
-   button_text: Github
-   button_url: http://sonumeewa.github.io/
-   image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+# -  name: Project title 6
+#    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecat
+#    button_text: Github
+#    button_url: http://github.com/sonumeewa
+#    image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
+#    url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
 

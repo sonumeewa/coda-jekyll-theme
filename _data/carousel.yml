@@ -2,19 +2,18 @@
  name: coda <strong>jekyll theme</strong> 
  quote_1: Be responsive
  quote_2: Be a good theme
- quote_3: Make jekyll sites beautiful
+ quote_3: Make beautiful jekyll sites 
  avatar_image: /assets/img/avatar/1.jpg
  background_images:
-  - src: https://mdbootstrap.com/img/Photos/Others/images/76.jpg
-  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg
-  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg
+  - src: /assets/img/carousel/1.jpg
+
  socials:
   - name: github
-    link: http://www.github.com/sonumeewa
+    link: http://www.github.com/
   - name: linkedin
-    link: http://www.linkedin.com/in/sonumeewa
+    link: http://www.linkedin.com/
   - name: twitter
-    link: http://www.twitter.com/VipulBarodiya
+    link: http://www.twitter.com/
   - name: envelope
     link: mailto:test@test.com
 

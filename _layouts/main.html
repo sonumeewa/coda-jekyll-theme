@@ -8,9 +8,10 @@ layout: default
 
 
 {% for i in (1..background_images.size) %}
+{% assign j = i | minus:1 %}
 <style>
-.carousel-item:nth-child(i) {
-  background-image: url("{{ background_images[i].src }}");
+.carousel-item:nth-child({{i}}) {
+  background-image: url("{{ background_images[j].src }}");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

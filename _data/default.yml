@@ -32,15 +32,6 @@
   - name: envelope
     link: mailto:test@test.com
 
-
-  
-
-  main_carousel_backgrounds:
-  - src: https://mdbootstrap.com/img/Photos/Others/images/76.jpg
-  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg
-  - src: https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg
-
-
   professions:
    -  name: freelancer
       icon: laptop
