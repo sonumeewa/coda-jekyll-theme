@@ -6,6 +6,10 @@
  avatar_image: /assets/img/avatar/1.jpg
  background_images:
   - src: /assets/img/carousel/1.jpg
+  - src: /assets/img/carousel/2.jpg
+  - src: /assets/img/carousel/3.jpg
+  - src: /assets/img/carousel/4.jpg
+  - src: /assets/img/carousel/5.jpg
 
  socials:
   - name: github

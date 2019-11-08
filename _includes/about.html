@@ -12,7 +12,7 @@
         <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">{{site.data.about.description | default: site.data.default.description}} </p>
         
         <!-- First row -->
-        <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
+        <div class="row features-big text-center wow fadeIn justify-content-center" data-wow-delay="0.4s">
             {% assign professions = site.data.about.professions | default: site.data.default.professions %}
             {% for profession in professions %}
             <!-- First column -->

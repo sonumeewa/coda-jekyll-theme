@@ -4,6 +4,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum q
 professions:
 -  name: freelancer
    icon: laptop
+   color: teal
+   text_color: white-text
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
 -  name: developer
    icon: code white-text
@@ -11,8 +13,20 @@ professions:
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
    text_color: white-text
 -  name: designer
+   color: default-color-dark
+   text_color: white-text
    icon: pencil-alt
    description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+-  name: freelancer
+   icon: laptop
+   color: cyan
+   description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+-  name: developer
+   icon: code white-text
+   color: grey
+   description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
+   text_color: white-text
+
 
 experience:
 -  title: Senior developer
