@@ -1,5 +1,6 @@
 # coda-jekyll-theme
- Welcome to your coda-jekyll-theme! 
+ coda-jekyll-theme is a minimalist theme for jekyll. live preview <a href="http://sonumeewa.github.io">here</a>
+ 
 <!-- In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
 To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
