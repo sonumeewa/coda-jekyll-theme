@@ -1,4 +1,16 @@
 # Gems
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
+
 plugins: [jekyll-paginate]
 paginate: 10
 paginate_path: "/blog/page:num/"
