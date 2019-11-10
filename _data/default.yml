@@ -1,169 +1,228 @@
----
-  about_section_heading: About <strong>Me</strong>
-  about_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-  projects_section_heading: My <strong>Projects</strong>
-  projects_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
+--- 
+about_section_description: "I'm a prefinal year student pursuing Integrated Post Graduate (B.Tech + M.Tech) course majoring in IT at IIIT Gwalior(ABV-Indian Institute of Information Technology and Management Gwalior). My interest includes Backend Development, Algorithms and Hindi literature. "
+about_section_heading: "About <strong>Me</strong>"
+author_Github: "http://github.com/sonumeewa"
+author_description: "I am a developer, artist, singer, dancer etc."
+author_facebook: "http://facebook.com/sonumeewa"
+author_image_landscape: /assets/img/avatar/1.jpg
+author_image_portrait: /assets/img/avatar/1.jpg
+author_description: "I'm a prefinal year student pursuing Integrated Post Graduate (B.Tech + M.Tech) course majoring in IT. I write about web development and hindi poetry. I'm a fan of hindi-urdu literature and poetry art forms -Ghazals, nazm, poems and more."
+author_name: "Vipul barodiya"
+author_twitter: "http://twitter.com/VipulBarodiya"
+blog_carousel_backgrounds: 
+  - 
+    image: "https://mdbootstrap.com/img/Photos/Others/city11.jpg"
+  - 
+    image: "https://mdbootstrap.com/img/Photos/Others/city13.jpg"
+blog_list_description: "These are not poems and blogs, these are expressions"
+blog_list_heading: "Welcome to my <strong>Blog</strong>"
+blog_list_subheading: "All Blogs"
+category_blog_list_description: ""
+category_blog_list_heading: "Welcome to my <strong>Blog</strong>"
+category_blog_list_subheading: "Category: {{ page.category }}"
+contact_section_card_button_text: Connect
+contact_section_card_button_url: "http://www.linkedin.com/in/sonumeewa"
+contact_section_card_heading: "@<strong>sonumeewa</strong>"
+contact_section_card_image: "https://mdbootstrap.com/img/illustrations/graphics(4).png"
+contact_section_card_description: "I am available as @sonumeewa across all the social media platforms. Mails are the best way to communicate though, you can reach out to me on twitter and linkedin as well. "
+contact_section_heading: "Get in <strong>Touch</strong>"
+copyright_name: Vipul <strong>Barodiya</strong>
+copyright_url: "http://github.com/sonumeewa"
+copyright_year: 2019
+experience: 
+  - 
+    description: "Worked with Node.js backend and express REST APis"
+    duration: "Feb, 2018 - Oct, 2018 (7 months)"
+    title: "Backend developer - Zenedo"
+  - 
+    description: "Actively involved in the developers' circle of the IIIT Gwalior"
+    duration: "July, 2018 - present"
+    title: "Executive member, AASF developers' circle"
+  - 
+    description: "Developed Information website for college startup initiative."
+    duration: "Aug, 2017 - Oct, 2017 (2 months)"
+    title: "Web developer Intern - Shaastra LLP"
+  - 
+    description: "Won Nationnal Talent Search Examination scholarship in year 2013"
+    duration: "June 2013 - present"
+    title: "NTSE scholar"
+main_carousel_avatar: /assets/img/avatar/1.jpg
+main_carousel_backgrounds: 
+  - src: /assets/img/carousel/09.jpg
+  - src: /assets/img/carousel/10.jpg
+  - src: /assets/img/carousel/03.jpg
+  - src: /assets/img/carousel/04.jpg
+  - src: /assets/img/carousel/05.jpg
+  - src: /assets/img/carousel/01.jpg
+  - src: /assets/img/carousel/02.jpg
+  - src: /assets/img/carousel/08.jpg
+  - src: /assets/img/carousel/12.jpg
   
-  contact_section_heading: Get in <strong>Touch</strong>
-  contact_section_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-  contact_section_card_heading: '@<strong>LinkedIn</strong>'
-  contact_section_card_descption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-  contact_section_card_image: https://mdbootstrap.com/img/illustrations/graphics(4).png
-  contact_section_card_button_text: Connect
-  contact_section_card_button_url: http://www.linkedin.com/in/sonumeewa
+main_carousel_name: "Vipul <strong>Barodiya</strong>"
+main_carousel_quote_1: "I'm like a tree"
+main_carousel_quote_2: "My leaves might change color"
+main_carousel_quote_3: "but my roots are the same"
+main_carousel_quote_author: Rose Namajunas
+main_carousel_socials: 
+  - 
+    link: "http://www.github.com/sonumeewa"
+    name: github
+  - 
+    link: "http://www.linkedin.com/in/sonumeewa"
+    name: linkedin
+  - 
+    link: "http://www.twitter.com/VipulBarodiya"
+    name: twitter
+  - 
+    link: "mailto:test@test.com"
+    name: envelope
+navbar_avatar: /assets/img/1.png
+navbar_name: "Vipul Barodiya"
+navbar_navitems: 
+  - 
+    img: /assets/img/1.png
+    link: /
+    type: avatar
+  - 
+    brand: "Vipul Barodiya"
+    link: /
+    type: navbrand
+  - 
+    link: /
+    name: Home
+    type: item
+  - 
+    link: "/#about"
+    name: About
+    type: item
+  - 
+    link: "/#projects"
+    name: Projects
+    type: item
+  - 
+    link: "/#contact"
+    name: Contact
+    type: item
+  - 
+    link: /blog/
+    name: Blog
+    type: dropdown
+professions: 
+  - 
+    description: "All episodes of the same TV show in one sitting"
+    icon: fas fa-laptop white-text
+    color:  aqua-gradient
+    text_color: white-text
+    name: Binge -Viewer
+  - 
+    icon: fas fa-code white-text
+    color: unique-color-dark
+    description: Building web apps and APIs to automating stuff.
+    text_color: white-text
+    name: Developer
+  - 
+    description: "Always on Twitter, tweeting about politics, tech and everything."
+    icon: fab fa-twitter white-text
+    name: Social
+    color:  blue-gradient
+    text_color: white-text
+  - 
+    icon: fas fa-book white-text
+    color: purple-gradient
+    description: Love to read the hindi classics as well as modern hindi literature.
+    text_color: white-text
+    name: Reader
+  - 
+    description: "Wriing without the meter, in mothertounge Hindi"
+    icon: fas fa-pencil-alt white-text
+    name: Free Verser
+    color: peach-gradient 
+    text_color: white-text
+projects: 
+  - 
+    button_text: Github
+    button_url: "http://github.com/mathewsachin/BTP"
+    description: "Recognition of footsteps for biometric ID based on the differential pressure signature obtained on a piezoelectric sensor plate."
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "Footstep recognition using Deep learning models"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  - 
+    button_text: Github
+    button_url: "http://github.com/sonumeewa"
+    description: "Developed <strong>Node.js</strong> backend for a full fledged Web application, for the task of automation of work in Ad agencies."
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "Web Application (Ad Agency Manager)"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
 
-  copyright_name: coda
-  copyright_year: 2019
-  copyright_url: http://github.com/sonumeewa
-
-
-  main_carousel_name: Vipul <strong>Barodiya</strong>
-  main_carousel_quote_1: Be the change
-  main_carousel_quote_2: you want to see
-  main_carousel_quote_3: in the world
-  main_carousel_avatar: /assets/img/avatar/1.jpg
-  main_carousel_socials:
-  - name: github
-    link: http://www.github.com/sonumeewa
-  - name: linkedin
-    link: http://www.linkedin.com/in/sonumeewa
-  - name: twitter
-    link: http://www.twitter.com/VipulBarodiya
-  - name: envelope
-    link: mailto:test@test.com
-
-  professions:
-   -  name: freelancer
-      icon: laptop
-      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
-   -  name: developer
-      icon: code
-      color: unique-color-dark light-grey-text
-      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
-   -  name: designer
-      icon: pencil-alt
-      description: Lorem ipsum dolor sit amet, hgvhvh adipisicing elit.
-   
-  experience:
-   -  title: Senior developer
-      duration: July, 2011 - July, 2013 (2 years)
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   -  title: JavaScript developer
-      duration: July, 2013 - July,2015 (2 years)
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   -  title: Web developer
-      duration: July, 2015 - Present (4 years)
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      
-  skills:
-   -  name: JavaScript
-      percentage: 25
-   -  name: HTML5
-      percentage: 25
-   -  name: CSS3
-      percentage: 25
-   -  name: Bootstrap
-      percentage: 25
-   -  name: PHP
-      percentage: 25
-  projects:
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-   
-   -  name: Project title
-      description: Some quick example text to build on the card title and make up the bulk of the card's content.
-      button_text: Github
-      button_url: http://sonumeewa.github.io/
-      image: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-      url: https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg
-
-  blog_carousel_backgrounds:
-   -  image: "https://mdbootstrap.com/img/Photos/Others/city11.jpg"
-   -  image: "https://mdbootstrap.com/img/Photos/Others/city13.jpg"
-  blog_list_heading: Welcome to my <strong>Blog</strong> 
-  blog_list_subheading: 'All Blogs'
-  blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-  category_blog_list_heading: Welcome to my <strong>Blog</strong>
-  category_blog_list_subheading: 'Tag: {{ page.tag }}'
-  category_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-  tag_blog_list_heading: Welcome to my <strong>Blog</strong>
-  tag_blog_list_subheading: 'Category: {{ page.category }}'
-  tag_blog_list_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum, velit sed tincidunt luctus, dolor lacus pharetra nibh, eget fringilla lorem urna eget purus. Aenean pulvinar venenatis nunc sit amet pretium. Integer euismod ex auctor, accumsan dui at, volutpat risus. Morbi et luctus sapien.
-
-  author_name: Vipul barodiya
-  author_description: I am a developer, artist, singer, dancer etc.
-  author_image_portrait: /assets/img/avatar/1.jpg
-  author_image_landscape: /assets/img/avatar/1.jpg
-  author_facebook: http://facebook.com/sonumeewa
-  author_twitter: http://twitter.com/VipulBarodiya
-  author_Github: http://github.com/sonumeewa
-
-
-
-
-  navbar_name: Coda Jekyll Theme
-  #logo avatar image 295 x295
-  navbar_avatar: /assets/img/1.png
- #nav items including dropdown in subnav
-  navbar_navitems:
-   - link: /
-     img: /assets/img/1.png
-     type: avatar
-   - link: /
-     brand: Coda
-     type: navbrand
-   - link: /
-     name: Home
-     type: item
-   - link: /#about
-     name: About
-     type: item
-   - link: /#projects
-     name: Projects
-     type: item
-   - link: /#contact
-     name: Contact
-     type: item
-   - link: /blog/
-     name: Blog
-     type: dropdown
-     subnav:
-       - link: /blog/index.html
-         name: All
-       - link: /blog/categories/personal
-         name: Personal
-       - link: /blog/categories/home
-         name: Home
- 
+  - 
+    button_text: Github
+    button_url: "http://rubygems.org/coda-jekyll-theme"
+    description: "Developed a gem based boilerplate theme to quickstart portfolio-blog sites for developers using jekyll. This site uses the same coda-jekyll-theme gem."
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "Coda-jekyll-theme"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  - 
+    button_text: Github
+    button_url: "http://github.com/alien-invasion/"
+    description: "A simplistic 2D game with basic controls and levels developed using pygame framework, while learning python."
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "Alien Invasion"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  - 
+    button_text: Github
+    button_url: "http://github.com/sonumeewa"
+    description: "An online compiler and judge to run variuos source code files. Multiple language support includes C++, python, JAVA, php and Javascript"
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "Online Compiler"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+  - 
+    button_text: Github
+    button_url: "http://github.com/sonumeewa/newsfeed/"
+    description: "An android app using JAVA, to fetch and summarise latest news from various global news agencies in one place."
+    image: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+    name: "NewsFeed"
+    url: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+projects_section_description: "You will learn more from your failures than your successes - so embrace those mistakes, as difficult as that sounds, and grow from them. When a project is successful, you're never really sure why, because so many elements come into play. However, when you fail, you always know why. That is how you learn and grow.
+ - Lynda Resnick"
+projects_section_heading: "My <strong>Projects</strong>"
+skills: 
+  - 
+    name: Data Structure
+    percentage: 25
+  - 
+    name: Algortihms
+    percentage: 25
+  - 
+    name: Backend devlopment (Node.js, Django)
+    percentage: 25
+  - 
+    name: Rest APIs (Express)
+    percentage: 25
+  -
+    name: C++
+    percentage: 25
+  -
+    name: Javascript
+    percentage: 25
+  -
+    name: python
+    percentage: 25
+    
+tag_blog_list_heading: "Welcome to my <strong>Blog</strong>"
+tag_blog_list_subheading: "Tag: {{ page.tag }}"
+tag_blog_list_description: ""
+socials:
+- link: https://www.facebook.com/sonumeewa
+  name: facebook
+- link: https://www.github.com/sonumeewa
+  name: github
+- link: https://www.twitter.com/VipulBarodiya
+  name: twitter
+- link: https://www.instagram.com/VipulBarodiya1
+  name: instagram
+- link: https://www.codepen.io/sonumeewa
+  name: codepen
+- link: https://www.pintereset.com/sonumeewa
+  name: pinterest
+- link: https://www.linkedin.com/in/sonumeewa
+  name: linkedin

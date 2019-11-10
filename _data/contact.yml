@@ -1,8 +1,0 @@
----
- heading: "Get in <strong>Touch</Touch>"
- description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas, animi obcaecati adipisci sapiente mollitia.
- card_heading: '@<strong>LinkedIn</strong>'
- card_description: Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.
- card_image: /assets/img/contact/1.jpg #https://mdbootstrap.com/img/illustrations/graphics(4).png
- card_button_text: Connect
- card_button_url: http://www.linkedin.com/in/sonumeewa
