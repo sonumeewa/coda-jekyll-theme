@@ -76,7 +76,7 @@ layout: default
                                                 </h4>
                                                 <hr>
                                                 <!-- Text -->
-                                                {{ content | default: "hjv"}}
+                                                {{ content }}
                                                 <hr>
                                                 {% if site.disqus.shortname %}
                                                 {% include disqus_comments.html %}
@@ -131,13 +131,7 @@ layout: default
                                         {% include blog/relatedpost.html %}
                                         <!--  Section: Featured posts -->
                                         
-                                        <!-- Newsletter -->
-                                        {% include blog/newsletter.html %}
-                                        <!-- Newsletter -->
-                                        
-                                        <!-- Archive -->
-                                        {% include blog/archive.html %}
-                                        <!-- Archive -->
+
                                         
                                     </div>
                                     <!-- Sidebar -->
