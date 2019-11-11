@@ -3,8 +3,8 @@
 <!-- Social icons -->
     <div class="pb-4">
     {% for item in socials %}
-        <a href="{{ item.link }}" target="_blank">
-            <i class="fab fa-{{ item.name }} mr-3"></i>
+        <a href="{{ item.link }}" style="line-height: 2em;" target="_blank">
+            <i class="fab fa-{{ item.name }} fa-3x m-2 mr-3 px-2 "></i>
         </a>
         
     {% endfor %}
@@ -12,7 +12,7 @@
     </div>
     <!-- Social icons -->
     <!--Copyright-->
-    <div class="footer-copyright py-3">
+    <div class="footer-copyright py-4">
         © {{site.data.footer.year | default: site.data.default.copyright_year}} Copyright | 
         <a href="{{site.data.footer.url | default: site.data.default.copyright_url}}" target="_blank">
              {{site.data.footer.name | default: site.data.default.copyright_name}} </a>

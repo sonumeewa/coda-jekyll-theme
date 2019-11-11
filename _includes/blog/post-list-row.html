@@ -22,7 +22,7 @@
             {% if post.category %}
             <div class="col-xl-2 col-md-6 text-sm-center text-md-right text-lg-left">
                 <p class="orange-text font-small font-weight-bold mb-1 spacing">
-                    <a href="{{site.base_url}}/blog/categories/{{post.category}}">
+                    <a href="/blog/categories/{{post.category}}">
                         <strong>{{post.category| capitalize}}</strong>
                     </a>
                 </p>
@@ -63,7 +63,7 @@
                     <span > 
                         {% for tag in post.tags | limit:1 %}
                         {% capture tag_name %}{{ tag }}{% endcapture %}
-                        <a href="/blog/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+                        <a href="/blog/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
                         {% endfor %}
 
                         {% if post.tags.size > 1%}

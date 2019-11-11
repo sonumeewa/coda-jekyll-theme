@@ -1,0 +1,61 @@
+---
+layout: default 
+---
+
+
+{% assign background_images = site.data.carousel.background_images | default: site.data.default.main_carousel_backgrounds %}
+
+
+
+{% for i in (1..background_images.size) %}
+{% assign j = i | minus:1 %}
+<style>
+.carousel-item:nth-child({{i}}) {
+  background-image: url("{{ background_images[j].src }}");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}</style>
+{% endfor %}
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+      {% for i in (1..background_images.size) %}
+          <li data-target="#carousel-example-2" data-slide-to="{{i}}" {% if i==1 %} active {% endif %}></li>
+      {% endfor %}
+  </ol>
+  <!--/.Indicators-->
+  
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    
+    {% for i in (1..background_images.size) %}
+    <div class="carousel-item {% if i==1 %} active {% endif %}">
+        <!--Mask color-->
+        <div class="view">
+          
+          {% include carousel-contents.html %}
+          <!--/Mask color-->
+        </div>
+      </div>
+    {% endfor %}
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  <main>
+  
+    {{ content }}
+    
+  </main>
