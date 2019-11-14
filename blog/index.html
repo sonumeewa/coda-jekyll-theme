@@ -50,7 +50,7 @@ layout: page
                         {% if paginator.previous_page %}
                         
                         <li class="page-item">
-                            <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                            <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.base_url | replace: '//', '/' }}" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                                 <span class="sr-only">Previous</span>
                             </a>
@@ -66,11 +66,11 @@ layout: page
                         </li>
                         {% elsif page == 1 %}
                         <li class="page-item">
-                            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: '/page:num', '' }}">{{page}}</a>
+                            <a class="page-link" href="{{ site.paginate_path | prepend: site.base_url | replace: '//', '/' | replace: '/page:num', '' }}">{{page}}</a>
                         </li>                             
                         {% else %}
                         <li class="page-item">
-                            <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{page}}</a>
+                            <a class="page-link" href="{{ site.paginate_path | prepend: site.base_url | replace: '//', '/' | replace: ':num', page }}">{{page}}</a>
                         </li>
                         {% endif %}
                         
@@ -78,7 +78,7 @@ layout: page
                         
                         {% if paginator.next_page %}
                         <li class="page-item">
-                            <a class="page-link"  href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+                            <a class="page-link"  href="{{ paginator.next_page_path | prepend: site.base_url | replace: '//', '/' }}" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                                 <span class="sr-only">Next</span>
                             </a>
