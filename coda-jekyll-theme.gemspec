@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "coda-jekyll-theme"
-  spec.version       = "0.1.12"
+  spec.version       = "0.1.13"
   spec.authors       = ["Vipul Barodiya"]
   spec.email         = ["sonumeewa@gmail.com"]
 

@@ -12,9 +12,9 @@ layout: default
     <section>
         <div class="container-fluid">
             <h1 class="text-center dark-grey-text pb-3 mt-5 pt-5">
-                {{ post.title | default: site.data.default.post_section_heading }}</h1>
+                {{ site.data.blog.post.heading | default: site.data.default.post_section_heading }}</h1>
                 
-                <p class="grey-text text-center mb-4 text-uppercase spacing">{{ post.subheading | default: site.data.default.post_section_subheading }} </p>
+                <p class="grey-text text-center mb-4 text-uppercase spacing">{{ site.data.blog.post.subheading | default: site.data.default.post_section_subheading }} </p>
                 
                 <!-- Grid row -->
                 <div class="row flex-center">
@@ -23,7 +23,7 @@ layout: default
                     <div class="col-md-10 col-xl-5">
                         
                         <p class="grey-text text-center">
-                            <em>{{ post.description | default: site.data.default.post_section_description }}</em>
+                            <em>{{ site.data.blog.post.description | default: site.data.default.post_section_description }}</em>
                         </p>
                         
                     </div>
@@ -61,7 +61,7 @@ layout: default
                                             
                                             <!-- Card image -->
                                             <div class="view overlay">
-                                                <img src="{{ post.image | default: "https://mdbootstrap.com/img/Photos/Slides/img%20(29).jpg"}}" class="img-fluid" alt="">
+                                                <img src="{{ page.image | default: "https://mdbootstrap.com/img/Photos/Slides/img%20(29).jpg"}}" class="img-fluid" alt="">
                                                 <a>
                                                     <div class="mask rgba-white-slight"></div>
                                                 </a>
@@ -72,7 +72,7 @@ layout: default
                                             <div class="card-body">
                                                 <!-- Title -->
                                                 <h4 class="card-title">
-                                                    <strong>{{post.title | default: "Title of the Post"}}</strong>
+                                                    <strong>{{page.title | default: "Title of the Post"}}</strong>
                                                 </h4>
                                                 <hr>
                                                 <!-- Text -->
