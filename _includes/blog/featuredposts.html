@@ -47,9 +47,6 @@
                                 <h4 class="h4-responsive">
                                     <a href="{{ post.url }}" class="white-text font-weight-bold">{{post.title | truncatewords: 3, '...' | capitalize }}</a>
                                 </h4>
-                                <p>
-                                    <a href="{{ post.url }}" class="white-text">{% if post.description %}{{post.description | truncatewords: 4, '...'}}{%else%}{{ post.excerpt | truncatewords: 4, '...'}} {%endif%} </a>
-                                </p>
                             </div>
                         </div>
                         <!-- Caption -->
